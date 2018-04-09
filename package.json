@@ -1,0 +1,17 @@
+{
+    "name": "gitbook-plugin-open-graph",
+    "version": "0.0.1",
+    "description": "Adds open graph and twitter share meta tags to gitbook",
+    "engines": {
+        "gitbook": ">1.x.x"
+    },
+    "gitbook": {
+        "properties": {
+            "open-graph": {
+                "baseURL": "https://example.com",
+                "defaultDescription": "This is my default share description",
+                "defaultImage": "images/default-share.jpg"
+            }
+        }
+    }
+}
